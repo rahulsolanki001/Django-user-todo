@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    border-radius: 5px;
+    border: 2px solid transparent;
+    color: #fff;
+    width: 10vw;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.details-container{
+    width: 50vw;
+    margin-left: 30%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid whitesmoke;
+    box-shadow: 3px 3px black;
+
+}
+
+.details-container div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+  
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+#logout{
+    background-color: maroon;
+  
+   
+    float: right;
+}
+
+
+form{
+    margin-left: 30%;
+    margin-top: 5em;
+}
+
+#todo-button{
+    background-color: lawngreen;
+    font-size: 20px;
+    padding: 0.2em;
+    width: 5vw;
+    margin-left: 1em;
+}
+
+input{
+    width: 30vw;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 1.5em;
+    outline: 0ch;
+}
+
+input:focus,input:active{
+    border-color: blue;
+}
+
+
+hr{
+    width: 100vw;
+    background-color: cyan;
+    height: 0.1em;
+    margin-top: 1em;
+}
+.todo-container{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.todo-container div {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 2em;
+    
+
+}
+
+
+.todo-container h3{
+    text-align: center;
+}
+
+
+#footer-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+
+#todo-update-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#todo-update-input{
+    margin-left: 4em;
+    outline: 0ch;
+
+}
+
+#todo-update-input:active,#todo-update-input:focus{
+    border-color:blue ;
+}
+
+#update-submit-button{
+    background-color: blueviolet;
+    color: #fff;
+    margin-left: 30%;
+    margin-bottom: 1.5em;
+}
+
+
+.success{
+    background-color: rgba(0,100,0,0.6);
+
+}
+
+.fail{
+    background-color: rgba(100,0,0,0.6);
+}
+
+
+.delete{
+    background-color: maroon;
+    color: #fff;
+}
+
+.update{
+    background-color: blue;
+    color: #fff;
+}
